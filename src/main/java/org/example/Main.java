@@ -1,7 +1,7 @@
 package org.example;
 
 public class Main {
-
+//Kommentieren als neues Adding
     public static void main(String[] args) {
         int a = 15;
         int b = 50;
@@ -13,9 +13,11 @@ public class Main {
         else {
             System.out.println(add(a,b));
         }
+
         System.out.println(makePositive(a));
         System.out.println(evenNumber(a));
         System.out.println(istPalindrom(name));
+
 
         String test = "otto";
         System.out.println(istPalindrom(test));  // Ausgabe: true
